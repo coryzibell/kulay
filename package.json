@@ -1,0 +1,28 @@
+{
+  "name": "kulay",
+  "version": "1.0.0",
+  "description": "A system for using random accessible named colors",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "rollup src/index.js --file test/bundle.js --format iife",
+    "dev": "rollup --config -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coryzibell/kulay.git"
+  },
+  "author": "Cory Zibell",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/coryzibell/kulay/issues"
+  },
+  "homepage": "https://github.com/coryzibell/kulay#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "accessible-named-colors": "^1.0.0",
+    "mersennetwister": "^0.2.3",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
